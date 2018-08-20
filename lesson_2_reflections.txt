@@ -2,20 +2,18 @@ What happens when you initialize a repository? Why do you need to do it?
 
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-
 	The staging area is temporary.  It allows files to be added/removed without altering the repository until it's clear they are needed.
 
 How can you use the staging area to make sure you have one commit per logical
 change?
-
 	By adding all the files to the staging area with git add, and then committing them together with a meaningful comment.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
     When a minimum working example/viable product is ready, and work is ready to begin on new features/beautifying it.
 
 How do the diagrams help you visualize the branch structure?
+	They show where branches are, their parents and if there are any unreachable commits
 
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
